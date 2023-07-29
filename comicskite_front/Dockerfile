@@ -13,7 +13,7 @@ RUN npm install
 # Copiar el resto de los archivos del frontend
 COPY . .
 
-ENV VITE_API_URL=http://localhost:3000
+ENV VITE_API_URL=http://web.biotico.cl:3000
 
 RUN npm run build
 
