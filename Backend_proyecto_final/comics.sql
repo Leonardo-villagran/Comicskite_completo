@@ -1,4 +1,6 @@
--- init.sql
+-- comics.sql
+
+-- Tabla usuario
 CREATE TABLE IF NOT EXISTS "usuario" (
 	"id_usuario" SERIAL PRIMARY KEY,
 	"email" VARCHAR,
