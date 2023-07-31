@@ -1,0 +1,20 @@
+.badge-custom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    font-size: 16px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+  }
+
+.select-estado-de-compra{
+  font-size: 14px;
+  padding: 4px;
+  width: 150px;
+}
+
+@media (max-width: 456px){
+  .select-estado-de-compra{
+    width: 110px;
+  }
+}
