@@ -44,7 +44,7 @@ Backend:
 
 ```
 ## Local
-PORT=3000
+PORT=5000
 DB_PORT=5432
 DB_HOST=localhost
 DB_USER=postgres
@@ -58,7 +58,7 @@ Nota: Los datos contenidos de las variables son solo ejemplos, generar según su
 Base de datos:
 
 7. Crea una base de datos llamada comics en Postgres.
-8. Ejecuta las sentencias de SQL en el archivo `comics.sql`  en la razín del backend.
+8. Ejecuta las sentencias de SQL en el archivo `comics.sql`  en la raíz del backend.
 
 ## Funcionalidades
 
@@ -125,7 +125,7 @@ Esto iniciará el frontend y podrás acceder a la aplicación en tu navegador we
 npm run dev
 ```
 
-Esto iniciará el servidor de backend y podrás acceder en `http://localhost:3000/`.
+Esto iniciará el servidor de backend y podrás acceder en `http://localhost:5000/`.
 
 ## Contexto
 
@@ -169,5 +169,6 @@ https://react-comicskites.onrender.com/
 ![Imagen 3](https://firebasestorage.googleapis.com/v0/b/comicskite.appspot.com/o/img%2Fgithub%2FSin-t%C3%ADtulo-3.png?alt=media&token=0db88156-dc79-4855-a84b-984e5837c111)
 ![Imagen 4](https://firebasestorage.googleapis.com/v0/b/comicskite.appspot.com/o/img%2Fgithub%2FSin-t%C3%ADtulo-4.png?alt=media&token=d9505178-6f27-483b-a0be-fe59e48f19b2)
 ![Imagen 5](https://firebasestorage.googleapis.com/v0/b/comicskite.appspot.com/o/img%2Fgithub%2FSin-t%C3%ADtulo-5.png?alt=media&token=8a3ad586-438c-4243-bff5-43ba9f0b9614)
+
 
 

@@ -46,7 +46,7 @@ function App() {
 
   useEffect(() => {
     // Retrieve the token from local storage
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem('token');     
     const decodedToken = decodeJWT(token);
     // Check if the token exists before proceeding
     if (decodedToken) setTokenContent(decodedToken);

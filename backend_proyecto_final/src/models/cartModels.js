@@ -1,7 +1,7 @@
 const pool = require('../config/db');
 const { format } = require('date-fns');
 const userModel = require('../models/userModels');
-const numbers = require('../config/numbers');
+const numbers = require('../utils/numbers');
 
 const changeEstado= async (id_usuario, datosBody) => {
 
@@ -91,7 +91,7 @@ const addToCart = async (id_usuario, datosBody) => {
     //En caso de que no exista stock o que si exista 
     let detalle_final;
     if (detalle_sin_stock.length != 0) {
-        detalle_final = detalle_casi_final + "<br/> ----------------<br/>" + "Comics que no fueron agregados por falta de stock: <br/>" + detalle_sin_stock;
+        detalle_final = detalle_casi_final + "<br/> ----------------<br/>" + "Productos que no fueron agregados por falta de stock: <br/>" + detalle_sin_stock;
     } else {
         detalle_final = detalle_casi_final;
     }
